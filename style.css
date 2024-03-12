@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    padding: 20px 0 20px 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.776);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* position: fixed; */
+    transition: 0.3s;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li{
+    /* display: inline; */
+    padding: 20px;
+}
+nav ul li:hover {
+    /* background-color: rgba(147, 147, 147, 0.703); */
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.section_2{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.section div,.section_2 div{
+    width: 40%;
+    font-size: 30px;
+    margin-inline: 35px;
+}
+.section div h1,.section_2 div h1{
+    margin-bottom: 30px;
+}
+.section img,.section_2 img{
+    height: 400px;
+    width: 400px;
+    margin-inline: 35px;
+    transition: 0.2s;
+}
+.section img:hover,.section_2 img:hover{
+    scale: 1.1;
+}
+.heroSection{
+    background-color: rgba(231, 230, 230, 0.776);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aboutus{
+    color: rgba(214, 209, 209, 0.904);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(snt-backgroungimg.jpg);
+    /* background-attachment: fixed; */
+    background-position: -5cm ;
+    /* background-repeat: no-repeat; */
+}
+.services{
+    background-color: rgba(231, 230, 230, 0.776);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer{
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    padding: 50px 0px 10px 0px;
+    background-color: #852A91;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.footer  div{
+    width: 40%;
+    font-size: 20px;
+    margin-inline: 35px;
+    line-height: 50px;
+}
+
+.footer img{
+    height: 200px;
+    width: 200px;
+    margin-inline: 95px;
+}
+.footer a{
+    color: rgba(36, 35, 35, 0.696);
+}
